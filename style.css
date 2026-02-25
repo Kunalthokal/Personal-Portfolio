@@ -172,12 +172,13 @@ form button {
     }
 }
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;   /* This fixes stretching */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;      /* Important */
+    object-position: center; /* Keeps face centered */
     border-radius: 50%;
-    margin-bottom: 20px;
-    border: 4px solid #38bdf8;
+    border: 5px solid #38bdf8;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
 }
 
 .hero-buttons {
