@@ -174,8 +174,8 @@ form button {
 .profile-pic {
     width: 200px;
     height: 200px;
-    object-fit: cover;      /* Important */
-    object-position: center; /* Keeps face centered */
+    object-fit: cover;
+    object-position: center 20%; /* Moves image upward */
     border-radius: 50%;
     border: 5px solid #38bdf8;
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
